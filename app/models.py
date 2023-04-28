@@ -22,3 +22,8 @@ class Commet(models.Model):
         return self.text[:30]
 
 
+class Test(models.Model):
+    name = models.CharField(max_length=20)
+
+
+

@@ -20,3 +20,11 @@ class Commet(models.Model):
 
     def __str__(self):
         return self.text[:30]
+
+
+class Test(models.Model):
+    name = models.CharField(max_length=20)
+    age = models.CharField(max_length=20, default='orozgay')
+
+
+

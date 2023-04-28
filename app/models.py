@@ -20,3 +20,5 @@ class Commet(models.Model):
 
     def __str__(self):
         return self.text[:30]
+
+
